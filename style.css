@@ -120,3 +120,23 @@ body {
 .fa-github {
     color: black;
 }
+#button-check  {background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%)}
+#button-check  {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  border: none;
+  margin-left: 180px;
+}
+
+#button-check:hover  {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
